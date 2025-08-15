@@ -1,0 +1,63 @@
+{
+  "configVersion": 1,
+  "timestamp": 1755292716279,
+  "index": "/alugai/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/alugai/index.html",
+        "/alugai/main-X2IU4HAH.js",
+        "/alugai/polyfills-B6TNHZQ6.js",
+        "/alugai/styles-Q3PXHF5F.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/alugai/assets/21.png",
+        "/alugai/assets/alugai.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/alugai/assets/21.png": "513380350725cf6666d4d2fb50ca27b1ec9a0d7f",
+    "/alugai/assets/alugai.svg": "1a4588ff85e60c9f79150203d583776afe3b7357",
+    "/alugai/index.html": "01fde853c00ef128f75a2e8586be0c84f47ad1ab",
+    "/alugai/main-X2IU4HAH.js": "d5673ed3c29833d8dc564544dad6fd453cf2a60a",
+    "/alugai/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
+    "/alugai/styles-Q3PXHF5F.css": "d0bcd627e0fe3c2034e0bd8f00e50817079b1afe"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
