@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1755622568853,
+  "timestamp": 1756138812741,
   "index": "/alugai/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/alugai/index.html",
-        "/alugai/main-YBHRZFBX.js",
+        "/alugai/main-E3D52PVS.js",
         "/alugai/polyfills-B6TNHZQ6.js",
         "/alugai/styles-WTBERRKI.css"
       ],
@@ -50,8 +50,8 @@
     "/alugai/assets/icons/icon-512x512.png": "81ca26746c6154e7635ce398c703e6e11eec9ccd",
     "/alugai/assets/icons/icon-72x72.png": "5aff5d39acea538fde16f5976df254bca8f4197b",
     "/alugai/assets/icons/icon-96x96.png": "025ddccb4eec78e5b6478c2a82a747dbefd73bde",
-    "/alugai/index.html": "58750c482ae70a6a424b3d6400110375e4e285a1",
-    "/alugai/main-YBHRZFBX.js": "276db01efc481219f0f52f79f070ff68494c546d",
+    "/alugai/index.html": "751ddd4b140e2fa7c4671b780823dd1e69c5b608",
+    "/alugai/main-E3D52PVS.js": "08b39c2db4bf713479dbb4e73760e965dbe569b2",
     "/alugai/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
     "/alugai/styles-WTBERRKI.css": "7715b5ad9363a40301e8b58c284b28538e57cce0"
   },
