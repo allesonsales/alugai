@@ -1,5 +1,8 @@
 # AlugAi
 
+## E-mail para teste: allesonsales@gmail.com
+## Senha para teste: 123
+
 ![Logo do projeto](public/Mockup.png)
 
 AlugAi é um aplicativo PWA (Progressive Web App) para gestão de aluguéis, desenvolvido para que proprietários e administradores de imóveis possam gerenciar contratos, unidades, moradores e pagamentos de forma prática e eficiente. Com ele, é possível acompanhar a receita de cada imóvel, receber notificações de vencimentos próximos e gerar contratos automaticamente.
