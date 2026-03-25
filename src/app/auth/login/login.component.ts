@@ -21,7 +21,10 @@ import { ModalComponent } from '../../components/modal/modal.component';
   styleUrl: './login.component.scss',
 })
 export class LoginComponent {
-  constructor(private router: Router, private usuarioService: UsuarioService) {}
+  constructor(
+    private router: Router,
+    private usuarioService: UsuarioService,
+  ) {}
 
   email: string = '';
   senha: string = '';
@@ -54,6 +57,32 @@ export class LoginComponent {
     const dados = {
       email: this.email,
       senha: this.senha,
+    };
+
+    this.usuarioService.logarUsuario(dados).subscribe({
+      next: (res: any) => {
+        localStorage.setItem('usuario', JSON.stringify(res.user));
+        this.tituloModal = 'Bem-vindo:';
+        this.mensagemModal = res.message;
+        this.mostrarModal = true;
+        this.logado = true;
+        this.loading = false;
+      },
+      error: (err) => {
+        this.tituloModal = 'Erro:';
+        this.mensagemModal = err.error.message;
+        this.mostrarModal = true;
+        this.loading = false;
+      },
+    });
+  }
+
+  logarTeste() {
+    this.loading = true;
+    sessionStorage.removeItem('notificacoesExibidas');
+    const dados = {
+      email: 'allesonsales@gmail.com',
+      senha: '123',
     };
 
     this.usuarioService.logarUsuario(dados).subscribe({

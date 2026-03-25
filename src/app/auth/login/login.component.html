@@ -29,6 +29,9 @@
     </div>
     <a [routerLink]="['/recuperar-senha']">Esqueceu a senha?</a>
     <app-botao-login texto="Entrar"></app-botao-login>
+    <button type="button" (click)="logarTeste()" class="teste">
+      Acessar para teste
+    </button>
   </form>
 
   <div class="background-loading" *ngIf="loading">

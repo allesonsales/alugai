@@ -63,6 +63,19 @@
     a:hover {
       color: $color-hover;
     }
+
+    .teste {
+      background-color: transparent;
+      padding: .5rem;
+      margin: 1rem;
+      color: $color-principal;
+      cursor: pointer;
+      border: none
+    }
+
+    .teste:hover {
+      color: $color-hover;
+    }
   }
 }
 
